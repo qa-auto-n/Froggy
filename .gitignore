@@ -1,0 +1,81 @@
+# Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore files built by Visual Studio
+*.obj            # Object files
+*.sdf            # Local database file
+*.exe            # Executable files
+*.pdb            # Program database files
+*.user           # User-specific files
+*.aps             # Application project status files
+*.pch             # Precompiled headers
+*.vspscc         # Team Foundation Version Control project lock files
+*_i.c             # Preprocessed source files
+*_p.c             # Compiled resource files
+*.ncb             # Visual Studio IntelliSense database
+*.suo             # Solution User Options file
+*.tlb             # Type library
+*.tlh             # Type library header
+*.bak             # Backup files
+*.cache           # Cache files
+*.ilk             # Incremental linker file
+*.log             # Log files
+[Bb]in            # Output directories
+[Dd]ebug*/        # Debug output directories
+[Rr]elease*/      # Release output directories
+*.sbr             # Source browser files
+_ReSharper*/      # ReSharper directory
+*.[Rr]e[Ss]harper # ReSharper files
+*.DotSettings.user # ReSharper user-specific settings
+*.licx            # License files
+*.sln.DotSettings.user # Visual Studio solution user-specific settings
+*.nupkg           # NuGet packages
+*.nuspec          # NuGet specification files
+*.ipch            # IntelliSense precompiled header files
+*.psess           # PowerShell session files
+*.vsp             # Visual Studio profiler files
+*.vspx            # Visual Studio performance session files
+*.sap             # System Activity Monitor files
+
+# Compiled files
+bin/
+obj/
+
+# Ignore NuGet packages
+packages/
+
+# Ignore files related to VSCode setup
+.vscode/
+
+# Ignore files related to Visual Studio
+*.vs/
+
+# Ignore .resources files
+*.resources
+
+# Ignore files built by GCC / Code Sorcery
+*.o
+*.s19
+*.elf
+Flash.li
+
+# Ignore files used by Xamarin Studio for local settings
+*.userprefs
+
+# Ignore temporary files created by Visual Studio
+*.opensdf
+
+# More Visual Studio shenanigans
+Solutions/UpgradeLog*.htm
+Source/Solutions/UpgradeLog*.htm
+
+# Ignore JetBrains stuff
+.idea/
+
+# Ignore object files created by WiX
+*.wixobj
+*.wixpdb
+*.msi
+
+# Ignore user-specific files
+*.sln.docstates

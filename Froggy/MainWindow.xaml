@@ -1,0 +1,17 @@
+﻿<Window x:Class="Froggy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Froggy"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="100" WindowStyle="None" AllowsTransparency="True" Background="Transparent" Topmost="True"
+        MouseDown="MainWindow_MouseDown" MouseMove="MainWindow_MouseMove" MouseUp="MainWindow_MouseUp"
+        Icon="./img/frogApp.ico">
+
+    <Grid>
+        <Image Width="100" Height="100" gif:ImageBehavior.AnimatedSource="./img/frog.gif"/>
+        <Label x:Name="timerLabel" Content="00:00" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="16" Foreground="LightGreen" Background="Transparent"/>
+    </Grid>
+</Window>
